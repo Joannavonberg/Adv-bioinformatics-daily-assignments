@@ -1,1 +1,17 @@
+CREATE TABLE Mutations
+(
+Chrom int(1),
+Pos int(20),
+ID int(20),
+Ref char(1),
+Alt char(1),
+Qual float(10,10)
+Filter tinytext(50),
+Info text,
+Format text
+);
 
+CREATE TABLE Samples
+(
+
+);
