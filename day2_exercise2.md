@@ -6,7 +6,4 @@ cursor = db.vcf.find({{"rec.samples.s.dp": { "$gt: 7" }},{"rec.samples[2-3]"}})
 n=0
 for document in cursor:
     n=n+1
-# 	print(document["rec.chr"])
-#	print(document["rec.pos"])
-#	print(document["rec.samples[2]"])
 print(n)
