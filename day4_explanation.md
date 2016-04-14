@@ -14,7 +14,7 @@ This data is of a molecular dynamics simulation of lysozyme in a crystal. I calc
 
 This is the result:
 
-http://jsfiddle.net/joannataart/5wu5zf4u/
+http://jsfiddle.net/joannataart/5wu5zf4u/1/
 
 You first have to click 'load PDB'  and then 'display PDB'. You can change the text to any PDB on the RCSB database, or to 'Joanna' which will show my data.
 
