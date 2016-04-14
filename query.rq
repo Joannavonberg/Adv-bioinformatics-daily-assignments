@@ -1,0 +1,5 @@
+SELECT ?bfac ?name
+WHERE
+{
+  ?name   <http://biobeat.org/rdf/ns#>    "X".
+}
