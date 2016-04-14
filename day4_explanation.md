@@ -11,3 +11,9 @@ http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/m
 Which plots hard-coded data. I managed to transport the data from PDB-files to the code for plotting, and included an option to display my own experimental data.
 
 This data is of a molecular dynamics simulation of lysozyme in a crystal. I calculated the RMSF, which can be converted to b-factor, and wrote that to the output-PDB-file. I use this to compare my md data to experimental data.
+
+This is the result:
+
+http://jsfiddle.net/joannataart/5wu5zf4u/1/
+
+You first have to click 'load PDB'  and then 'display PDB'. You can change the text to any PDB on the RCSB database, or to 'Joanna' which will show my data.
