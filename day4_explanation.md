@@ -19,3 +19,5 @@ http://jsfiddle.net/joannataart/5wu5zf4u/
 You first have to click 'load PDB'  and then 'display PDB'. You can change the text to any PDB on the RCSB database, or to 'Joanna' which will show my data.
 
 (actually, my data now shows that the b-factor is 0 for every atom, which is correct, because I hadn't calculated b-factor for this file. Tomorrow morning I will upload a file with b-factors != 0.)
+
+Also see chart.png for an example.
