@@ -1,5 +1,8 @@
-SELECT ?bfac ?name
+SELECT ?name
 WHERE
 {
-  ?name   <http://biobeat.org/rdf/ns#>    "X".
+  Model2      <http://biobeat.org/rdf/ns#ChainD>  ?chain
+  ?chain      ?allatoms    ?atom
+  ?atom       <http://biobeat.org/rdf/ns#bfac>    ?bfac .
+  FILTER (?bfac > 15) .
 }
